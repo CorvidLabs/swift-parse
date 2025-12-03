@@ -1,6 +1,7 @@
 # SwiftParse
 
-[![CI](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-parse/ci.yml?label=CI&branch=main)](https://github.com/CorvidLabs/swift-parse/actions/workflows/ci.yml)
+[![macOS](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-parse/macOS.yml?label=macOS&branch=main)](https://github.com/CorvidLabs/swift-parse/actions/workflows/macOS.yml)
+[![Ubuntu](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-parse/ubuntu.yml?label=Ubuntu&branch=main)](https://github.com/CorvidLabs/swift-parse/actions/workflows/ubuntu.yml)
 [![License](https://img.shields.io/github/license/CorvidLabs/swift-parse)](https://github.com/CorvidLabs/swift-parse/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/CorvidLabs/swift-parse)](https://github.com/CorvidLabs/swift-parse/releases)
 
