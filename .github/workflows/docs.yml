@@ -24,10 +24,10 @@ jobs:
     - name: Build Documentation
       run: |
         swift package --allow-writing-to-directory ./docs \
-          generate-documentation --target Text \
+          generate-documentation --target Parse \
           --disable-indexing \
           --transform-for-static-hosting \
-          --hosting-base-path swift-text \
+          --hosting-base-path swift-parse \
           --output-path ./docs
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
