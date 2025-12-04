@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/CorvidLabs/swift-parse)](https://github.com/CorvidLabs/swift-parse/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/CorvidLabs/swift-parse)](https://github.com/CorvidLabs/swift-parse/releases)
 
+> **Pre-1.0 Notice**: This library is under active development. The API may change between minor versions until 1.0.
+
 A comprehensive Swift 6 package for text processing, analysis, and manipulation.
 
 ## Features
