@@ -10,14 +10,16 @@ public struct ReadabilityScore: Sendable {
         self.statistics = TextStatistics(text: text)
     }
 
-    /// Flesch Reading Ease score (0-100, higher is easier).
-    /// 90-100: Very Easy
-    /// 80-89: Easy
-    /// 70-79: Fairly Easy
-    /// 60-69: Standard
-    /// 50-59: Fairly Difficult
-    /// 30-49: Difficult
-    /// 0-29: Very Confusing
+    /**
+     Flesch Reading Ease score (0-100, higher is easier).
+     - 90-100: Very Easy
+     - 80-89: Easy
+     - 70-79: Fairly Easy
+     - 60-69: Standard
+     - 50-59: Fairly Difficult
+     - 30-49: Difficult
+     - 0-29: Very Confusing
+     */
     public var fleschReadingEase: Double {
         guard statistics.wordCount > 0, statistics.sentenceCount > 0 else { return 0 }
 
