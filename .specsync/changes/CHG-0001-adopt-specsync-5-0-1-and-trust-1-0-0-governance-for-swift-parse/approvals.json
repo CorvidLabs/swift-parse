@@ -1,0 +1,18 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1784010160,
+      "digest": "0f0b3c059c3989c3ce621249c1c1c3fa7901ccd8db1b6e4f96ed23ca986a205e",
+      "note": "Definition reviewed for the organization rollout: complete source-grounded contract, truthful evidence boundaries, and no product behavior changes"
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784010248,
+      "digest": "467d744d04972f5b5a661aac83b75c0907946c61e814c04fd4503fe13900a0ec",
+      "note": "Accepted after full canonical contract acceptance, strict 100% coverage, healthy Trust configuration, native build, and all 185 tests passed"
+    }
+  ]
+}
