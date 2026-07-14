@@ -5,6 +5,7 @@ artifact: context
 
 # Context
 
-swift-parse has no prior canonical companions or SpecSync threshold. This
+swift-parse had no prior canonical companions or SpecSync threshold. This
 migration adds repository governance only with an explicit no-spec-change
-rationale, preserving its public Swift API and runtime behavior.
+rationale, while CHG-0002 separately documents the existing API at 100%.
+Both changes preserve public Swift API and runtime behavior.

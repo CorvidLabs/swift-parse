@@ -6,5 +6,5 @@ artifact: research
 # Research
 
 - Existing Ubuntu Swift 6, macOS, and DocC Pages workflows are independent.
-- No previous coverage threshold exists, so adoption starts advisory at zero.
+- No previous coverage threshold existed; CHG-0002 supplies a complete active companion so adoption can enforce 100%.
 - The package has no live-network verification requirement.

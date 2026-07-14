@@ -5,8 +5,8 @@ artifact: plan
 
 # Plan
 
-1. Adopt SpecSync 5.0.1 with a governance-only rationale.
+1. Adopt SpecSync 5.0.1 with a governance-only rationale and enforced 100% contract coverage.
 2. Install all four agents and standard policies.
 3. Add deterministic native Swift verification.
 4. Preserve platform, docs, release, API, and live-network boundaries.
-5. Validate and open a draft PR for human approvals.
+5. Validate the exact rollout branch through native, Trust, CodeQL, and supported lifecycle gates.
